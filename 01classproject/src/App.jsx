@@ -3,11 +3,15 @@
 import First from "./first"
 
 function App() {
+  const username = "Code With Yash"
   return (
-    // <h1>Code With Yash with Vite | Joshan</h1> 
+    <>
     <First/>
+    {/* {username }  is expretion in final outcom*/}
+    <h1>Code With Yash with Vite | Joshan {username}</h1> 
+    </>
   )
   
 }
 
-export default First
+export default App
